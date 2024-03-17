@@ -33,7 +33,7 @@ export default function Projects() {
             tech: [SiNextdotjs,SiTrpc,SiPostgresql,SiTailwindcss],
             link:"https://cuesource.vercel.app/",
             cover:"/cue-source.png",
-            background:"bg-pink-500"
+            background:"bg-purple-400"
         }
 
     ]
