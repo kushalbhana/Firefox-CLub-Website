@@ -3,38 +3,39 @@
 import React from 'react'
 import Title from './Title'
 import { HoverEffect } from '@/components/ui/card-hover-effect'
-import { SiAmazonaws, SiDocker, SiGraphql, SiNextdotjs, SiPostgresql, SiTailwindcss, SiTypescript } from 'react-icons/si'
+import { SiAmazonaws, SiCrowdsource, SiDocker, SiGithub, SiGraphql, SiMan, SiNextdotjs, SiPagekit, SiPersonio, SiPostgresql, SiReact, SiTailwindcss, SiTypescript ,SiCarrd } from 'react-icons/si'
+import { BiSolidCertification, BiSolidTrophy } from 'react-icons/bi';
 
 export default function Skills() {
     const skills=[
         {
-            text: 'Next.js',
-            Icon: SiNextdotjs
+            text: 'Exciting Prizes',
+            Icon: BiSolidTrophy
             },
             {
-            text: 'Tailwind CSS',
-            Icon: SiTailwindcss
+            text: 'Networking',
+            Icon: SiCrowdsource
             },
             {
-            text: 'TypeScript',
-            Icon: SiTypescript
+            text: 'Certificates',
+            Icon: SiPagekit
             },
             {
-            text: 'AWS',
-            Icon: SiAmazonaws
+            text: 'Enchance Skills',
+            Icon: SiReact
             },
             {
-            text: 'Docker',
-            Icon: SiDocker
+            text: 'Collaboration',
+            Icon: SiGithub
             },
             {
-            text: 'PostgreSQL',
-            Icon: SiPostgresql  
+            text: 'Resume Building',
+            Icon: SiCarrd  
         }
     ]
   return (
     <div className='max-w-5xl mx-auto px-8'>
-        <Title text='Skills 🛠️' className='flex flex-col items-center justify-center -rotate-6'/>
+        <Title text='Benifits' className='flex flex-col items-center justify-center -rotate-6'/>
         <HoverEffect items={skills}/>
     </div>
   )
